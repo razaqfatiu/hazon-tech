@@ -539,7 +539,6 @@ h2>.logo {
   left: 40%;
   top: 60%;
   width: 40%;
-  /* border: 3px solid yellow; */
   font-family: Noticia Text;
   font-style: italic;
   font-weight: bold;
@@ -549,3 +548,190 @@ h2>.logo {
   color: #F4F4ED;
   opacity: 0.25;
 }
+
+.features-main {
+  position: absolute;
+  width: 90%;
+  height: 1008px;
+  left: 0px;
+  top: 1638px;
+  /* border: 3px solid black; */
+  z-index: -1;
+}
+
+.features-left {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  left: 0px;
+  top: 0%;
+  /* Colors/Secondary_300 */
+  background: #30124E;
+  mix-blend-mode: normal;
+}
+
+.features-bg {
+  /* Bg */
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  left: 0px;
+  top: 0%;
+  /* Colors/Secondary_300 */
+  background: #30124E;
+  mix-blend-mode: normal;
+}
+
+.features-bg-img {
+  /* Bg */
+  position: absolute;
+  width: 75%;
+  height: 1008px;
+  left: 0px;
+  top: 0%;
+  background: url('../../images/Bg.png');
+  mix-blend-mode: multiply;
+}
+
+.features-left>.features-head {
+  /* Benefits */
+  position: absolute;
+  width: 304px;
+  height: 24px;
+  left: 15%;
+  top: 15%;
+  /* Title/Small */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/Primary */
+  color: #F61067;
+}
+
+.features-left>.features-content-head {
+  /* Shaping the future */
+  position: absolute;
+  width: 415px;
+  height: 30%;
+  left: 15%;
+  top: 15%;
+  /* Headers/H3 */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+  /* identical to box height */
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.features-left>.features-content-main {
+  /* Eget nunc scelerisque viverra mauris in aliquam. Dignissim sodales ut eu sem integer vitae. Libero nunc consequat interdum varius. */
+  position: absolute;
+  width: 46%;
+  height: 97px;
+  left: 15%;
+  top: 25%;
+  /* Text/Regular_Bold */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.features-content-submain {
+  /* Magna sit amet purus gravida. Sit amet porttitor eget dolor morbi non. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Dui faucibus in ornare quam viverra. Posuere ac ut consequat semper viverra. */
+  position: absolute;
+  width: 50%;
+  height: 295px;
+  left: 15%;
+  top: 39%;
+  /* Text/Regular */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 49px;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.features-left>.ft-btn {
+  /* Rectangle 2.1 */
+  position: absolute;
+  width: 197px;
+  height: 45px;
+  left: 15%;
+  top: 75%;
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* Colors/White */
+  color: #FCFCFC;
+  /* Colors/Primary */
+  background: #F61067;
+  border-radius: 36px;
+}
+
+.features-right {
+  /* Photo */
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  top: 0%;
+}
+
+.features-right>img {
+  /* Photo */
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  right: 20%;
+  top: 20%;
+}
+
+.features-right>img {
+  /* Photo */
+  position: absolute;
+  width: 70%;
+  height: 60%;
+  right: 20%;
+  top: 20%;
+}
+
+.features-right>.features-rt-text {
+  /* Mobile Apps */
+  position: absolute;
+  width: 612px;
+  height: 68px;
+  right: -30%;
+  top: 65%;
+  /* Title/Small */
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/Secondary_100 */
+  color: #5E239D;
+  transform: rotate(90deg);
+}
+
+
