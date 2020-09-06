@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500;800&display=swap');
+:root {
+  --header-margin-top: 0%;
+  --nav-font: 'M PLUS 1p';
+  --nav-font-size: 16.4px
+}
+
+.header {
+  /* Header */
+  position: absolute;
+  width: 100%;
+  height: 828px;
+  left: -1px;
+  top: 0px;
+  /* background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%) !important; */
+}
+
+h2>.logo {
+  /* Home */
+  position: absolute;
+  width: 28%;
+  height: 8%;
+  left: 10%;
+  top: 10%;
+  /* Text_Misc/Nav */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 26.4px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  /* Colors/White */
+  color: #FCFCFC;
+  text-decoration: none;
+}
+
+.nav {
+  position: absolute;
+  width: 60%;
+  height: 8%;
+  left: 30%;
+  top: 8%;
+  text-decoration: none;
+}
+
+.nav>li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav>li:nth-child(1) {
+  position: absolute;
+  width: 49px;
+  height: 18px;
+  left: 1%;
+  top: var(--header-margin-top);
+  /* Text_Misc/Nav */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--nav-font-size);
+  line-height: 30px;
+  letter-spacing: 2px;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.nav>li:nth-child(2) {
+  position: absolute;
+  width: 79px;
+  height: 30px;
+  left: 15%;
+  top: var(--header-margin-top);
+  /* Text_Misc/Nav */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--nav-font-size);
+  line-height: 30px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  /* Colors/White */
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.nav>li:nth-child(3) {
+  position: absolute;
+  width: 55px;
+  height: 30px;
+  left: 30%;
+  top: var(--header-margin-top);
+  /* Text_Misc/Nav */
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--nav-font-size);
+  line-height: 30px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  /* Colors/White */
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.nav>li:nth-child(4) {
+  /* Work */
+  position: absolute;
+  width: 47px;
+  height: 30px;
+  left: 43%;
+  top: var(--header-margin-top);
+  /* Text_Misc/Nav */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--nav-font-size);
+  line-height: 30px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  /* Colors/White */
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.nav>li:nth-child(5)>img {
+  position: absolute;
+  left: 60%;
+  /* right: 34.1%; */
+  top: var(--header-margin-top);
+  bottom: 98.34%;
+  /* Colors/White */
+  background: #000000;
+}
+
+.nav>li:nth-child(6) {
+  position: absolute;
+  width: 226px;
+  height: 31px;
+  left: 65%;
+  top: var(--header-margin-top);
+  /* Text_Misc/Nav */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--nav-font-size);
+  line-height: 30px;
+  letter-spacing: 2px;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.nav>li:nth-child(7)>img {
+  /* Menu */
+  position: absolute;
+  /* width: 27px; */
+  height: auto;
+  left: 95%;
+  top: 15%;
+}
+
+.bg-header {
+  position: absolute;
+  width: 100%;
+  height: 828px;
+  left: 0px;
+  top: 0px;
+}
+
+.bg-header1 {
+  position: absolute;
+  width: 100%;
+  height: 828px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%);
+  mix-blend-mode: multiply;
+}
+
+.bg-header2 {
+  position: absolute;
+  width: 100%;
+  height: 828px;
+  left: 0px;
+  top: 0px;
+  /* Colors/Secondary_100 */
+  background: #5E239D;
+  mix-blend-mode: multiply;
+}
+
+.header-bg-img {
+  /* Rectangle */
+  position: absolute;
+  width: 100%;
+  height: 828px;
+  left: 0px;
+  top: 0px;
+  background: url('../../images/Rectangle.png');
+  /* background-size: cover; */
+}
+
+.scroll-div {
+  /* Scroll */
+  position: absolute;
+  width: 20%;
+  height: 343px;
+  left: 60%;
+  top: 25%;
+}
+
+.scroll-text {
+  /* Scroll to see more */
+  position: absolute;
+  width: 100%;
+  right: -155%;
+  top: 1%;
+  /* Title/Small */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 100%;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/White */
+  color: #FCFCFC;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+.scroll-img>img {
+  /* Icon */
+  position: absolute;
+  /* height: 100%; */
+  right: -57%;
+  top: 90%;
+}
+
+.headline {
+  /* Headline */
+  position: absolute;
+  width: 60%;
+  height: 372px;
+  left: 10%;
+  top: 27%;
+  color: #FCFCFC;
+}
+
+.headline-intro {
+  /* What we do? */
+  position: absolute;
+  width: 100%;
+  height: 28px;
+  left: 0%;
+  top: 3%;
+  /* Title/Medium */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: var(--nav-font-size);
+  line-height: 30px;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.headline-content {
+  /* We grow great business */
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0%;
+  top: 7%;
+  /* Headers/H1 */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+  color: #FCFCFC;
+}
+
+.headline-content2 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0%;
+  top: 40%;
+  /* Headers/H1 */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+  color: #F61067;
+}
+
+.subheader {
+  /* Subheader */
+  position: absolute;
+  width: 833px;
+  height: 108px;
+  left: 0%;
+  top: 75%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+}
+
+.subheader-icon>img {
+  /* Arrow */
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 745px;
+  top: 25%;
+  /* color: #FCFCFC; */
+  /* color: #000000; */
+}
+
+.subheader-text {
+  /* Velit laoreet id donec ultrices. Ut lectus arcu bibendum varius. */
+  position: absolute;
+  width: 555px;
+  height: 37px;
+  left: 147px;
+  top: 10%;
+  /* Text/Regular */
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  /* Colors/White */
+  color: #FCFCFC;
+}
