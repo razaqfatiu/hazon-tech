@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500;800&family=Noticia+Text:ital@1&display=swap');
 :root {
   --header-margin-top: 0%;
   --nav-font: 'M PLUS 1p';
@@ -11,8 +11,7 @@
   width: 100%;
   height: 828px;
   left: -1px;
-  top: 0px;
-  /* background: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%) !important; */
+  top: 0%;
 }
 
 h2>.logo {
@@ -335,4 +334,218 @@ h2>.logo {
   align-items: center;
   /* Colors/White */
   color: #FCFCFC;
+}
+
+/* INTRO SECTION ----------- */
+
+.intro {
+  /* INTRO Header */
+  position: absolute;
+  width: 100%;
+  height: 828px;
+  /* left: 50%px; */
+  top: 828px;
+}
+
+.intro-left {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+}
+
+.intro-left>.intro-head {
+  /* Intro */
+  position: absolute;
+  width: 50%;
+  height: 28px;
+  left: 20%;
+  top: 22%;
+  /* Title/Small */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/Primary */
+  color: #F61067;
+}
+
+.intro-left>h1 {
+  /* Our future */
+  position: absolute;
+  width: 100%;
+  height: 72px;
+  left: 20%;
+  top: 26%;
+  /* Headers/H3 */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+  /* TextColors/Headers */
+  color: #30233D;
+}
+
+.intro-left>h5 {
+  /* border: 2px solid yellow; */
+  /* Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. */
+  position: absolute;
+  width: 60%;
+  height: 89px;
+  left: 20%;
+  top: 36%;
+  /* Text/Regular_Bold */
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  /* TextColors/Headers */
+  color: #30233D;
+}
+
+.intro-left>.intro-foot {
+  /* border: 2px solid blue; */
+  /* By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver. */
+  position: absolute;
+  width: 60%;
+  height: 144px;
+  left: 20%;
+  top: 55%;
+  /* Text/Regular */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  /* TextColors/Maintext */
+  color: #776C82;
+}
+
+.intro-left>.intro-btn {
+  /* Button */
+  position: absolute;
+  width: 25%;
+  height: 45px;
+  left: 20%;
+  top: 80%;
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #F61067;
+  border-radius: 36px;
+  color: #FCFCFC;
+}
+
+.intro-right {
+  /* Quote */
+  /* border: 2px solid black; */
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  top: 0%;
+}
+
+.intro-right>.intro-bg {
+  /* Bg */
+  position: absolute;
+  width: 60%;
+  height: 70%;
+  right: 0%;
+  top: 15%;
+  /* Colors/Secondary_300 */
+  background: #30124E;
+  mix-blend-mode: normal;
+}
+
+.intro-right>.intro-img {
+  /* Photo */
+  position: absolute;
+  width: 60%;
+  height: 738px;
+  right: 40%;
+  top: 20%;
+  background: url('../../images/Photo.png');
+}
+
+.intro-right>.intro-quote {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  right: 0%;
+  top: 15%;
+  /* Colors/Secondary_300 */
+  background: #30124E;
+  mix-blend-mode: normal;
+  color: #FCFCFC;
+  font-family: Noticia Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22.5px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.intro-quote>blockquote {
+  position: absolute;
+  width: 55%;
+  height: 70%;
+  right: 0%;
+  top: 10%;
+  width: 60%;
+  /* border: 3px solid yellow; */
+  font-family: Noticia Text;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22.5px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.intro-right>.intro-quote>.q-up {
+  /* ” */
+  position: absolute;
+  height: 10%;
+  left: 40%;
+  top: 0%;
+  width: 40%;
+  /* border: 3px solid yellow; */
+  font-family: Noticia Text;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 10%;
+  /* Colors/LightGrey */
+  color: #F4F4ED;
+  opacity: 0.25;
+}
+
+.intro-right>.intro-quote>.q-down {
+  /* ” */
+  position: absolute;
+  height: 10%;
+  left: 40%;
+  top: 60%;
+  width: 40%;
+  /* border: 3px solid yellow; */
+  font-family: Noticia Text;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 10%;
+  /* Colors/LightGrey */
+  color: #F4F4ED;
+  opacity: 0.25;
 }
