@@ -488,7 +488,7 @@ h2>.logo {
   background: #30124E;
   mix-blend-mode: normal;
   color: #FCFCFC;
-  font-family: Noticia Text;
+  font-family: 'Noticia Text';
   font-style: italic;
   font-weight: normal;
   font-size: 22.5px;
@@ -505,7 +505,7 @@ h2>.logo {
   top: 10%;
   width: 60%;
   /* border: 3px solid yellow; */
-  font-family: Noticia Text;
+  font-family: 'Noticia Text';
   font-style: italic;
   font-weight: normal;
   font-size: 22.5px;
@@ -522,7 +522,7 @@ h2>.logo {
   top: 0%;
   width: 40%;
   /* border: 3px solid yellow; */
-  font-family: Noticia Text;
+  font-family: 'Noticia Text';
   font-style: italic;
   font-weight: bold;
   font-size: 144px;
@@ -539,7 +539,7 @@ h2>.logo {
   left: 40%;
   top: 60%;
   width: 40%;
-  font-family: Noticia Text;
+  font-family: 'Noticia Text';
   font-style: italic;
   font-weight: bold;
   font-size: 144px;
@@ -894,7 +894,6 @@ h2>.logo {
   /* left: 10%;
   top: 10%;*/
   margin: 3%;
-  /* border: 2px solid palegreen; */
 }
 
 .services-card>.services-title {
@@ -937,4 +936,287 @@ h2>.logo {
   color: #FCFCFC;
   background: #F61067;
   border-radius: 36px;
+}
+
+.testimonials-div {
+  /* Testimonials */
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  left: 0px;
+  top: 3870px;
+}
+
+.testimonials-div>img {
+  /* Ellipse */
+  position: absolute;
+  width: 460px;
+  height: 460px;
+  left: 35%;
+  top: 2%;
+}
+
+.testimonials-div>.faces {
+  /* Faces */
+  position: absolute;
+  width: 90%;
+  height: 349px;
+  left: 5%;
+  top: 13%;
+}
+
+.faces>.ellipse {
+  position: absolute;
+  left: 10%;
+  top: 20%
+}
+
+.faces>.ellipse1 {
+  position: absolute;
+  left: 20%;
+  top: 50%
+}
+
+.faces>.ellipse2 {
+  position: absolute;
+  left: 75%;
+  top: 30%
+}
+
+.faces>.ellipse3 {
+  position: absolute;
+  left: 60%;
+  top: 50%
+}
+
+.faces>.ellipse4 {
+  position: absolute;
+  left: 88%;
+  top: 50%
+}
+
+.faces>.ellipse5 {
+  position: absolute;
+  left: 88%;
+  top: 0%
+}
+
+.faces>.ellipse6 {
+  position: absolute;
+  left: 0%;
+  top: 60%
+}
+
+.faces>.test-quote {
+  /* “ */
+  position: absolute;
+  width: 92.25px;
+  height: 79.73px;
+  left: 45%;
+  top: 60%;
+  /* Colors/Primary */
+  color: #F61067;
+  font-family: 'Noticia Text';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 10%;
+}
+
+.testimonials-div>.test-submenu {
+  position: absolute;
+  width: 90%;
+  height: 349px;
+  left: 5%;
+  right: 5%;
+  top: 60%;
+}
+
+.test-submenu>h4 {
+  /* Lectus arcu bibendum at varius. Adipiscing diam donec adipiscing tristique. */
+  /* border: 2px solid black; */
+  position: absolute;
+  width: 50%;
+  height: 128px;
+  left: 25%;
+  top: 10%;
+  /* Quote/Large */
+  font-family: 'Noticia Text';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 64px;
+  text-align: center;
+  /* TextColors/Headers */
+  color: #30233D;
+}
+
+.test-submenu>.test-second-line {
+  /* Kerry Johnes - Some Company */
+  position: absolute;
+  width: 460px;
+  height: 30px;
+  left: 35%;
+  top: 65%;
+  /* Text/Regular_Bold */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  /* Colors/Primary */
+  color: #F61067;
+}
+
+.test-submenu>.left {
+  /* Arrow Right */
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 90%;
+  top: 35%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  color: #F61067;
+  border: 1px solid #F61067;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #F61067;
+}
+
+.test-submenu>.right {
+  /* Arrow Right */
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 5%;
+  top: 35%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border: 1px solid #F61067;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #F61067;
+}
+
+.newsletter-div {
+  /* Newsletter */
+  position: absolute;
+  width: 100%;
+  height: 239px;
+  /* left: 413px; */
+  top: 4896px;
+}
+
+.newsletter-div>h4 {
+  /* H4 */
+  position: absolute;
+  width: 613px;
+  height: 67px;
+  left: 30%;
+  top: -20%;
+  /* Headers/H3 */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
+  /* identical to box height */
+  text-align: center;
+  /* TextColors/Headers */
+  color: #30233D;
+}
+
+.newsletter-div>.subtitle {
+  /* H4 */
+  position: absolute;
+  width: 613px;
+  height: 67px;
+  left: 30%;
+  top: 20%;
+  /* H6 */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  /* TextColors/Maintext */
+  color: #776C82;
+}
+
+.newsletter-div>p {
+  /* Enter email */
+  border-bottom: #e6e5e5 2px solid;
+  position: absolute;
+  width: 40%;
+  height: 67px;
+  left: 30%;
+  top: 50%;
+}
+
+.newsletter-div>p>.email {
+  /* Enter email */
+  position: absolute;
+  width: 50%;
+  height: 67px;
+  left: 10%;
+  top: 20%;
+  /* Title/Large */
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  /* identical to box height */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  /* TextColors/Grey */
+  color: #9B94A3;
+}
+
+.newsletter-div>p>.sub {
+  /* Enter email */
+  position: absolute;
+  width: 50%;
+  height: 67px;
+  right: -15%;
+  top: 0%;
+  /* Title/Large */
+  /* Text */
+  /* Title/Small */
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/Primary */
+  color: #F61067;
+}
+
+.newsletter-div>p>img {
+  /* Enter email */
+  position: absolute;
+  /* width: 2%; */
+  /* height: 67px; */
+  right: 5%;
+  top: 30%;
+  /* Title/Large */
+  /* Text */
+  /* Title/Small */
+  /* position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 5%;
+  top: 35%; */
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border: 1px solid #F61067;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #F61067;
 }
