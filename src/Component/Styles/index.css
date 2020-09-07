@@ -1220,3 +1220,32 @@ h2>.logo {
   border-radius: 50%;
   background: #F61067;
 }
+
+.footer {
+  /* Footer */
+  position: absolute;
+  width: 100%;
+  height: 558px;
+  left: 0px;
+  top: 5256px;
+  /* Colors/Secondary_400 */
+  background: #150433;
+  color: #FCFCFC;
+  
+}
+
+.footer>.section1{
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  /*border: 2px solid red;*/
+  
+}
+
+.footer>.section2{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 20%;
+  /*border: 2px solid white;*/
+}
