@@ -1,6 +1,5 @@
 import React from 'react'
 import './Styles/index.css'
-import IntroImg from '../images/Photo.png'
 
 export default function Intro() {
   return (
