@@ -556,7 +556,7 @@ h2>.logo {
   left: 0px;
   top: 1638px;
   /* border: 3px solid black; */
-  z-index: -1;
+  z-index: 1;
 }
 
 .features-left {
@@ -719,7 +719,7 @@ h2>.logo {
   right: -30%;
   top: 65%;
   /* Title/Small */
-  font-family: Mplus 1p;
+  font-family: var(--nav-font);
   font-style: normal;
   font-weight: 800;
   font-size: 12.6px;
@@ -734,4 +734,207 @@ h2>.logo {
   transform: rotate(90deg);
 }
 
+.features-right>.features-slides>p {
+  /* 1/3 */
+  position: absolute;
+  width: 68px;
+  height: 27px;
+  right: 35%;
+  top: 85%;
+  /* Title/Small */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/LightGrey */
+  color: #F4F4ED;
+}
 
+.features-right>.features-slides>.lA {
+  /* 1/3 */
+  position: absolute;
+  width: 38px;
+  height: 27px;
+  right: 25%;
+  top: 86%;
+  /* Title/Small */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/LightGrey */
+  color: #F4F4ED;
+}
+
+.features-right>.features-slides>.rA {
+  /* 1/3 */
+  position: absolute;
+  width: 38px;
+  height: 27px;
+  right: 15%;
+  top: 86%;
+  /* Title/Small */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/LightGrey */
+  color: #F4F4ED;
+}
+
+.services-div {
+  position: absolute;
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 1548px;
+  left: 0px;
+  top: 2443px;
+  /* Bg */
+  background: #150433;
+  z-index: -1;
+}
+
+.services-div>.services-p-head {
+  /* We are Amazing */
+  position: absolute;
+  width: 50%;
+  height: 24px;
+  left: 25%;
+  top: 20%;
+  /* Title/Small */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  /* Colors/Primary */
+  color: #F61067;
+  text-align: center;
+}
+
+.services-div>h1 {
+  /* Our services */
+  position: absolute;
+  width: 50%;
+  height: 67px;
+  left: 25%;
+  top: 22%;
+  /* Headers/H3 */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 67px;
+  /* identical to box height */
+  text-align: center;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.services-div>h4 {
+  /* Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Quam elementum pulvinar etiam non. Eu consequat. */
+  position: absolute;
+  width: 30%;
+  height: 111px;
+  left: 35%;
+  top: 30%;
+  /* Text/Regular_Bold */
+  font-family: Mplus 1p;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.services-div>.services-cards {
+  position: absolute;
+  width: 95%;
+  height: 45%;
+  /* left: 35%; */
+  top: 35%;
+  /* border: 2px solid red; */
+  padding: 5% 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services-cards>.services-card {
+  /* 1 */
+  /* position: absolute; */
+  width: 318px;
+  height: 40%;
+  /* left: 10%;
+  top: 10%;*/
+  margin: 3%;
+  /* border: 2px solid palegreen; */
+}
+
+.services-card>.services-title {
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  /* Colors/Tetriary */
+  /* color: #00F0B5; */
+}
+
+.services-card>.services-content {
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16.2px;
+  line-height: 26px;
+  /* Colors/White */
+  color: #FCFCFC;
+}
+
+.services-div>.services-learn {
+  /* Learn more */
+  position: absolute;
+  width: 13%;
+  height: 45px;
+  left: 40%;
+  top: 85%;
+  text-align: center;
+  /* Text_Misc/Button */
+  font-family: var(--nav-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* Colors/White */
+  color: #FCFCFC;
+  background: #F61067;
+  border-radius: 36px;
+}
